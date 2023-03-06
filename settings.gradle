@@ -18,8 +18,8 @@ dependencyResolutionManagement {
             credentials {
                 // This token is read only so it's safe to commit it to source control
                 // read token from local.properties
-                username = rootProject.getProperties()["gpr.user"]
-                password = rootProject.getProperties()["gpr.token"]
+                username = "<your github account>"
+                password = "<your github token>"
             }
         }
     }
